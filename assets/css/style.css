@@ -1,7 +1,7 @@
 /* My Reset */
 * {
     box-sizing: border-box;
-    border: solid 1px red !important;
+    /* border: solid 1px red !important; */
     padding: 0;
     margin: 0;
   }
@@ -12,8 +12,16 @@ img {
     height: auto;
 }
 
+a {
+    margin-right: 5px;
+
+} 
+
+
+
 body {
     background-color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Navbar */
