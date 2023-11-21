@@ -56,7 +56,7 @@ main {
     width: 25%;
     font-size: 30px;
     height: 100%;
-    padding: 15px;
+    padding: 4px;
     margin-bottom: 20px;
     border-right: solid 5px red;
 }
@@ -81,4 +81,6 @@ footer {
 }
 
 
-
+section>div {
+    padding: 58px;
+}
