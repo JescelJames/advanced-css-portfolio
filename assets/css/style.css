@@ -1,49 +1,64 @@
-/* General Reset */
+/* My Reset */
 * {
     box-sizing: border-box;
-    margin: 0;
+    border: solid 1px red !important;
     padding: 0;
-    border: solid 1px red;
+    margin: 0;
   }
+
 /* Image Reset */
 img {
     width: 100%;
     height: auto;
 }
 
-/* Body */
-body {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
-/* Header */
-header {
-    text-align:center;
-    padding: 10px;
-   
-}
-/* Header Image */
-header > img {
-    width: 100px;
-  
-}
 /* Navbar */
 nav {
     display: flex;
-    justify-content: center;
-    background-color: rgb(169, 169, 236);
-}
-.section-1 {
-    padding: 20px;
+    flex-direction: column;
+    background-color: rgb(88, 172, 237);
+    margin-bottom: 30px;
 }
 
+
+/* Nav img */
+nav img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+
+/* Main */
+main {
+    /* display: inline-block; */
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* Aside */
+.aside-1 {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Section-1 */
+.section-1 {
+    display: inline-block;
+    padding: 20px;
+    margin: 2px;
+    width: 70%
+}
 
 
 /* Footer */
 footer {
+    display: flex;
     margin: 100;
     width: 100%;
 
