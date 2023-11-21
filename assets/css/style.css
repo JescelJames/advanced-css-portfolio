@@ -67,6 +67,12 @@ figcaption {
 }
 
 
+
+figure:hover {
+    width: 600px;
+}
+
+
 /* Main */
 main {
     display: flex;
