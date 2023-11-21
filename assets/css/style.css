@@ -1,7 +1,7 @@
 /* My Reset */
 * {
     box-sizing: border-box;
-    border: solid 1px red !important;
+    /* border: solid 1px red !important; */
     padding: 0;
     margin: 0;
   }
@@ -25,8 +25,6 @@ body {
     color: white;
     padding-left: 5px;
 }
-
-
 
 
 /* Navbar */
@@ -53,7 +51,6 @@ article img {
     width: 300px;
     margin-right: 20px;
     border-radius: 16px;
-    
 }
 
 .second-challenge img {
@@ -96,7 +93,6 @@ main {
 
 /* Section-1 */
 .section-1 {
-    /* display: inline-block; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -117,15 +113,10 @@ footer {
     justify-content: center;
     padding: 10px;
     margin-top: 60px;
-    /* border: solid 1px rgb(229, 217, 217); */
     width: 98%;
-    /* border-radius: 20px; */
     border-top: solid 1px rgb(229, 217, 217);
     border-bottom: solid 1px rgb(229, 217, 217);
     border-radius: 20px;
-    /* border-right: solid 1px rgb(0, 21, 255);
-    border-bottom: solid 1px rgb(0, 119, 255);  */
-    
 }
 
 
