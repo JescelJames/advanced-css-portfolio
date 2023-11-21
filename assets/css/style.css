@@ -43,6 +43,7 @@ nav img {
     display: inline-block;
     width: 200px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 /* Article Work img */
@@ -50,6 +51,8 @@ article img {
     display: inline-block;
     width: 100px;
     margin-right: 20px;
+    border-radius: 16px;
+    
 }
 
 
@@ -68,14 +71,14 @@ main {
 .aside-1 {
     display: flex;
     float: left;
-    width: 22%;
-    font-size: 21px;
+    width: 23%;
+    /* font-size: 21px; */
     height: 100%;
     padding: 2px;
    
     margin-bottom: 20px;
     border-top: solid 1px red;
-    
+    border-radius: 0 20px 0 0;
 }
 
 /* Section-1 */
@@ -89,6 +92,7 @@ main {
     width: 75%;
     border-left: solid 1px rgb(0, 21, 255);
     border-bottom: solid 1px rgb(0, 119, 255);
+    border-radius: 20px 0 0 20px;
 }
 
 
