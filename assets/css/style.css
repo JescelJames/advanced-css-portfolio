@@ -48,7 +48,11 @@ nav img {
 
 /* Article Work img */
 article img {
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 100%;
     width: 300px;
     margin-right: 20px;
     border-radius: 16px;
@@ -124,7 +128,8 @@ footer {
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     main,
-    nav {
+    nav, 
+    {
       flex-direction: column;
     }
 }
