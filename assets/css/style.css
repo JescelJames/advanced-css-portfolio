@@ -36,9 +36,9 @@ nav {
 
 
 /* Nav img */
-nav img {
+article img {
     display: inline-block;
-    width: 200px;
+    width: 100px;
     margin-right: 20px;
 }
 
@@ -100,8 +100,8 @@ section>div {
 
 } */
 
-section>h1 span {
-    flex: 1;
+section>h1 {
+    flex: 3;
 }
 
 @media screen and (max-width: 768px) {
