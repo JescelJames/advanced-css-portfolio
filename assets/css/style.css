@@ -1,7 +1,7 @@
 /* My Reset */
 * {
     box-sizing: border-box;
-    /* border: solid 1px red !important; */
+    border: solid 1px red !important;
     padding: 0;
     margin: 0;
   }
@@ -102,20 +102,17 @@ footer {
     display: flex;
     justify-content: center;
     padding: 10px;
-    margin: 100;
-    width: 100%;
+    margin-top: 60px;
+    /* width: 39%; */
+    border: solid 1px rgb(229, 217, 217);
+    border-radius: 20px;
 }
 
 
 
-/* 
-section>h1 {
-    flex: 3;
-} */
-
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     main,
     nav {
       flex-direction: column;
-    }
+    } */
