@@ -16,6 +16,8 @@ a {
     margin-right: 5px;
 } 
 
+
+
 /* Body */
 body {
     background: linear-gradient(to right, #ffae00, #7515db);
@@ -36,11 +38,19 @@ nav {
 
 
 /* Nav img */
+nav img {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+}
+
+/* Article Work img */
 article img {
     display: inline-block;
     width: 100px;
     margin-right: 20px;
 }
+
 
 
 /* Main */
