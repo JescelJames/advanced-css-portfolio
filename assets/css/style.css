@@ -16,14 +16,15 @@ a {
     margin-right: 5px;
 } 
 
+
+
 /* Body */
 body {
     background: linear-gradient(to right, #ffae00, #7515db);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
+    padding-left: 5px;
 }
-
-
 
 
 /* Navbar */
@@ -40,6 +41,29 @@ nav img {
     display: inline-block;
     width: 200px;
     margin-right: 20px;
+    border-radius: 10px;
+}
+
+/* Article  Images and Gifs*/
+article img {
+    height: auto;
+    max-width: 100%;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+
+.second-challenge img {
+    height: auto;
+    max-width: 100%;
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+
+figcaption {
+    font-size:10%
+    padding-top: 3px;
 }
 
 
@@ -57,24 +81,28 @@ main {
 .aside-1 {
     display: flex;
     float: left;
-    width: 10%;
-    font-size: 30px;
+    width: 23%;
+    /* font-size: 21px; */
     height: 100%;
-    padding: 1px;
+    padding: 2px;
+   
     margin-bottom: 20px;
-    
-    
+    border-top: solid 1px red;
+    border-radius: 0 20px 0 0;
 }
 
 /* Section-1 */
 .section-1 {
-    /* display: inline-block; */
     display: flex;
     flex-wrap: wrap;
-    padding-left: 20px;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-bottom: 10px;
     margin-left: 10px;
-    width: 85%;
-    border-left: solid 1px red;
+    width: 75%;
+    border-left: solid 1px rgb(0, 21, 255);
+    border-bottom: solid 1px rgb(0, 119, 255);
+    border-radius: 20px 0 20px 20px;
 }
 
 
@@ -84,29 +112,22 @@ footer {
     display: flex;
     justify-content: center;
     padding: 10px;
-    margin: 100;
-    width: 100%;
+    margin-top: 60px;
+    width: 98%;
+    border-top: solid 1px rgb(229, 217, 217);
+    border-bottom: solid 1px rgb(229, 217, 217);
+    border-radius: 20px;
 }
 
 
-section>div {
-  padding: 0px;
 
-}
-
-/* section>h1 {
-    display: flex;
-    justify-content: space-around;
-
-} */
-
-section>h1 span {
-    flex: 1;
-}
-
+ 
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     main,
-    nav {
+    nav, 
+    {
       flex-direction: column;
     }
+}
+
