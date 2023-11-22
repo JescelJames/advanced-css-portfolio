@@ -41,8 +41,8 @@ This is an online portfolio using Cascading Style Sheet to properly layout a pag
 ## Credits
 
 My Instructors:
-Benjamin Wright.
-Max Ohsawa.
+Ben Wright (Who mixes education and entertainment (edutainment) that creates a great learning environment!)
+Max Ohsawa (Who is ready to lend a hand at all times and helped me figure out flexbox structure!)
 
 GIFS:
 https://github.com/rudrabarad/Gifs
