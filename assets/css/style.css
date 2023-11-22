@@ -1,6 +1,6 @@
-/* For testing*/
+/* For Testing Purposes*/
 * {
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 /* Body */
@@ -54,45 +54,50 @@ main {
     border-radius: 20px 0 20px 20px;
 }
 
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 60px;
+    width: 98%;
+    border-top: solid 1px rgb(229, 217, 217);
+    border-bottom: solid 1px rgb(229, 217, 217);
+    border-radius: 20px;
+}
 
 
-
-
-
-
-
-
-
-/* Nav img */
+/* Navigation Bar Semantic Selectors */
 nav img {
-    display: inline-block;
     width: 200px;
     margin-right: 20px;
     border-radius: 10px;
 }
-
-
-
-
-
-
 nav>img:hover {
     opacity: 1.0;
 }
-
 nav>div>a:hover {
     opacity: 0.5;
 }
 
-/* Article  Images and Gifs*/
-article img {
+/* Grouped Section id */
+#about-me, #work-me, #contact-me {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+/* Section My Work images*/
+.first-challenge img {
     height: auto;
     max-width: 100%;
-    width: 300px;
+    width: 500px;
     margin-right: 20px;
     border-radius: 16px;
 }
-
 .second-challenge img {
     height: auto;
     max-width: 100%;
@@ -100,19 +105,15 @@ article img {
     margin-right: 20px;
     border-radius: 16px;
 }
-
 figcaption {
-    font-size: 20px;
+    font-size: 17px;
     padding-top: 3px;
-    color: rgb(204, 50, 50)55, 255, 255);
+    color: rgb(158, 204, 50)55, 255, 255);
 }
+figcaption:hover {
+  opacity: 0.5;
+} 
 
-
-#about-me, #work-me, #contact-me {
-    /* display: flex; */
-    /* flex-direction: row; */
-    padding-bottom: 20px;
-}
 
 
 img:hover  {
@@ -129,23 +130,13 @@ img:hover  {
 
 
 
-/* Footer */
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    margin-top: 60px;
-    width: 98%;
-    border-top: solid 1px rgb(229, 217, 217);
-    border-bottom: solid 1px rgb(229, 217, 217);
-    border-radius: 20px;
-}
+
 
  /*Screen Adjust  */
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     main,
-    nav, 
+    nav 
     {
       flex-direction: column;
     }
