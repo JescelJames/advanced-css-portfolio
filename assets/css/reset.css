@@ -27,3 +27,9 @@ pre, code {
 ol, ul {
   list-style: none;
 }
+
+/* Image Reset */
+img {
+  width: 100%;
+  height: auto;
+}

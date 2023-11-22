@@ -3,18 +3,6 @@
     border: solid 1px red;
 }
 
-/* Image Reset */
-img {
-    width: 100%;
-    height: auto;
-}
-
-a {
-    margin-right: 5px;
-  
-} 
-
-
 /* Body */
 body {
     background: linear-gradient(to right, #ffae00, #7515db);
@@ -23,14 +11,56 @@ body {
     padding-left: 5px;
 }
 
-
-/* Navbar */
+/* Navigation Bar */
 nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, #ffae00, #7515db);
     margin-bottom: 30px;
 }
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Aside */
+.aside-1, .aside-2, .aside-3 {
+    display: flex;
+    float: left;
+    /* width: 23%;  */
+    margin-right: 50px;
+    height: 100%;
+    padding: 2px;
+    margin-bottom: 20px;
+    border-top: solid 1px red;
+    border-radius: 0 20px 0 0;
+}
+
+/* Sections */
+.section-1, .section-2, .section-3 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    width: 75%;
+    border-left: solid 1px rgb(0, 21, 255);
+    border-bottom: solid 1px rgb(0, 119, 255);
+    border-radius: 20px 0 20px 20px;
+}
+
+
+
+
+
+
+
+
 
 
 /* Nav img */
@@ -40,6 +70,11 @@ nav img {
     margin-right: 20px;
     border-radius: 10px;
 }
+
+
+
+
+
 
 nav>img:hover {
     opacity: 1.0;
@@ -89,42 +124,8 @@ img:hover  {
 }
 
 
-/* Main */
-main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 20px;
-}
 
 
-
-/* Aside */
-.aside-1, .aside-2, .aside-3 {
-    display: flex;
-    float: left;
-    /* width: 23%;  */
-    margin-right: 50px;
-    height: 100%;
-    padding: 2px;
-    margin-bottom: 20px;
-    border-top: solid 1px red;
-    border-radius: 0 20px 0 0;
-}
-
-/* Section-1 */
-.section-1, .section-2, .section-3 {
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    margin-left: 10px;
-    width: 75%;
-    border-left: solid 1px rgb(0, 21, 255);
-    border-bottom: solid 1px rgb(0, 119, 255);
-    border-radius: 20px 0 20px 20px;
-}
 
 
 
@@ -140,9 +141,7 @@ footer {
     border-radius: 20px;
 }
 
-
-
- 
+ /*Screen Adjust  */
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     main,
@@ -152,3 +151,8 @@ footer {
     }
 }
 
+
+
+a {
+    margin-right: 5px;
+} 
