@@ -48,7 +48,6 @@ main {
 /* Sections */
 .section-1, .section-2, .section-3 {
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -77,9 +76,12 @@ footer {
 nav img {
     height: auto;
     max-width: 100%;
-    width: 200px;
+    width: 242px;
     margin-right: 20px;
     border-radius: 10px;
+}
+nav a {
+    color: white;
 }
 nav>img:hover {
     opacity: 1.0;
@@ -87,15 +89,19 @@ nav>img:hover {
 nav>div>a:hover {
     opacity: 0.5;
 }
-
-
+nav h1 {
+    font-size: 29px;
+}
 
 /* Grouped Section id */
 #about-me, #work-me, #contact-me {
     padding-bottom: 20px;
 }
 
-
+/* Main h1 */
+main h2 {
+    font-size: 23px;
+}
 
 /* Section My Work */
 .first-challenge img {
@@ -110,46 +116,57 @@ nav>div>a:hover {
     max-width: 100%;
     width: 100px;
     margin-right: 20px;
+  
+        border-bottom: solid 1px red;
+    
     border-radius: 16px;
 }
-img:hover  {
+.first-challenge img:hover  {
     opacity: 0.5;
 }
 figcaption {
     font-size: 17px;
     padding-top: 3px;
-    color: rgb(158, 204, 50)55, 255, 255);
+    color: white;
+    margin-bottom: 10px;
 }
-figcaption:hover {
+.first-challenge figcaption:hover {
   opacity: 0.5;
 } 
+.second-challenge figcaption {
+    color: blue;
+}
 a {
     margin-right: 5px;
 } 
-
-
+a:link, a:visited {
+    text-decoration: none;
+}
 
 /* Section Contact Me*/
 .github-link>a {
     color: white;
 }
-
-
+.github-link>a:hover {
+    opacity: 0.5;
+}
 
 /* Smooth Scroll */
 html {
     scroll-behavior: smooth;
 }
 
-
-
  /*Screen Adjust  */
 @media screen and (max-width: 768px) {
-    /* Use flex-direction to stack the navbar, sidebar, and body */
-   main,
-    nav
+   body, nav, main
+    
     {
-      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column; 
+      justify-content: center; 
+     
+      
     }
 }
 
