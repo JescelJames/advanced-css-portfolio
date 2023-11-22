@@ -48,7 +48,6 @@ main {
 /* Sections */
 .section-1, .section-2, .section-3 {
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -94,13 +93,10 @@ nav h1 {
     font-size: 29px;
 }
 
-
 /* Grouped Section id */
 #about-me, #work-me, #contact-me {
     padding-bottom: 20px;
 }
-
-
 
 /* Main h1 */
 main h2 {
@@ -147,8 +143,6 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-
-
 /* Section Contact Me*/
 .github-link>a {
     color: white;
@@ -157,13 +151,10 @@ a:link, a:visited {
     opacity: 0.5;
 }
 
-
 /* Smooth Scroll */
 html {
     scroll-behavior: smooth;
 }
-
-
 
  /*Screen Adjust  */
 @media screen and (max-width: 768px) {
@@ -172,7 +163,7 @@ html {
     {
       display: flex;
       flex-wrap: wrap;
-      flex-direction: column;
+      flex-direction: column; 
       justify-content: center; 
      
       
