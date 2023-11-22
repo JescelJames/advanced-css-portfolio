@@ -3,6 +3,7 @@
     /* border: solid 1px red; */
 }
 
+  
 /* Body */
 body {
     background: linear-gradient(to right, #ffae00, #7515db);
@@ -16,6 +17,8 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, #ffae00, #7515db);
+    margin-top: 10px;
+    margin-left: 10px;
     margin-bottom: 30px;
 }
 
@@ -31,10 +34,12 @@ main {
 .aside-1, .aside-2, .aside-3 {
     display: flex;
     float: left;
-    /* width: 23%;  */
+    width: 16%; 
     margin-right: 50px;
     height: 100%;
     padding: 2px;
+    margin-left: 10px;
+    
     margin-bottom: 20px;
     border-top: solid 1px red;
     border-radius: 0 20px 0 0;
@@ -67,8 +72,11 @@ footer {
 }
 
 
+
 /* Navigation Bar Semantic Selectors */
 nav img {
+    height: auto;
+    max-width: 100%;
     width: 200px;
     margin-right: 20px;
     border-radius: 10px;
@@ -80,6 +88,8 @@ nav>div>a:hover {
     opacity: 0.5;
 }
 
+
+
 /* Grouped Section id */
 #about-me, #work-me, #contact-me {
     padding-bottom: 20px;
@@ -87,10 +97,7 @@ nav>div>a:hover {
 
 
 
-
-
-
-/* Section My Work images*/
+/* Section My Work */
 .first-challenge img {
     height: auto;
     max-width: 100%;
@@ -105,6 +112,9 @@ nav>div>a:hover {
     margin-right: 20px;
     border-radius: 16px;
 }
+img:hover  {
+    opacity: 0.5;
+}
 figcaption {
     font-size: 17px;
     padding-top: 3px;
@@ -113,30 +123,31 @@ figcaption {
 figcaption:hover {
   opacity: 0.5;
 } 
+a {
+    margin-right: 5px;
+} 
 
 
 
-img:hover  {
-    opacity: 0.5;
-}
-
+/* Section Contact Me*/
 .github-link>a {
     color: white;
 }
 
 
 
-
-
-
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
 
 
 
  /*Screen Adjust  */
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
-    main,
-    nav 
+   main,
+    nav
     {
       flex-direction: column;
     }
@@ -144,6 +155,3 @@ img:hover  {
 
 
 
-a {
-    margin-right: 5px;
-} 
