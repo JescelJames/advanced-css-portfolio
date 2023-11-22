@@ -110,22 +110,34 @@ nav>div>a:hover {
     max-width: 100%;
     width: 100px;
     margin-right: 20px;
+  
+        border-bottom: solid 1px red;
+    
     border-radius: 16px;
 }
-img:hover  {
+.first-challenge img:hover  {
     opacity: 0.5;
 }
 figcaption {
     font-size: 17px;
     padding-top: 3px;
-    color: rgb(158, 204, 50)55, 255, 255);
+    color: white;
+    margin-bottom: 10px;
 }
-figcaption:hover {
+
+.second-challenge figcaption {
+    color: blue;
+}
+
+.first-challenge figcaption:hover {
   opacity: 0.5;
 } 
 a {
     margin-right: 5px;
 } 
+a:link, a:visited {
+    text-decoration: none;
+  }
 
 
 
