@@ -1,23 +1,9 @@
-/* My Reset */
+/* For Testing Purposes*/
 * {
-    box-sizing: border-box;
-    /* border: solid 1px red !important; */
-    padding: 0;
-    margin: 0;
-  }
-
-/* Image Reset */
-img {
-    width: 100%;
-    height: auto;
+    /* border: solid 1px red; */
 }
 
-a {
-    margin-right: 5px;
-} 
-
-
-
+  
 /* Body */
 body {
     background: linear-gradient(to right, #ffae00, #7515db);
@@ -26,46 +12,15 @@ body {
     padding-left: 5px;
 }
 
-
-/* Navbar */
+/* Navigation Bar */
 nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, #ffae00, #7515db);
+    margin-top: 10px;
+    margin-left: 10px;
     margin-bottom: 30px;
 }
-
-
-/* Nav img */
-nav img {
-    display: inline-block;
-    width: 200px;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-
-/* Article  Images and Gifs*/
-article img {
-    height: auto;
-    max-width: 100%;
-    width: 300px;
-    margin-right: 20px;
-    border-radius: 16px;
-}
-
-.second-challenge img {
-    height: auto;
-    max-width: 100%;
-    width: 100px;
-    margin-right: 20px;
-    border-radius: 16px;
-}
-
-figcaption {
-    font-size:10%
-    padding-top: 3px;
-}
-
 
 /* Main */
 main {
@@ -75,26 +30,25 @@ main {
     margin-bottom: 20px;
 }
 
-
-
 /* Aside */
-.aside-1 {
+.aside-1, .aside-2, .aside-3 {
     display: flex;
     float: left;
-    width: 23%;
-    /* font-size: 21px; */
+    width: 16%; 
+    margin-right: 50px;
     height: 100%;
     padding: 2px;
-   
+    margin-left: 10px;
+    
     margin-bottom: 20px;
     border-top: solid 1px red;
     border-radius: 0 20px 0 0;
 }
 
-/* Section-1 */
-.section-1 {
+/* Sections */
+.section-1, .section-2, .section-3 {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -104,8 +58,6 @@ main {
     border-bottom: solid 1px rgb(0, 119, 255);
     border-radius: 20px 0 20px 20px;
 }
-
-
 
 /* Footer */
 footer {
@@ -121,13 +73,85 @@ footer {
 
 
 
- 
+/* Navigation Bar Semantic Selectors */
+nav img {
+    height: auto;
+    max-width: 100%;
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+nav>img:hover {
+    opacity: 1.0;
+}
+nav>div>a:hover {
+    opacity: 0.5;
+}
+
+
+
+/* Grouped Section id */
+#about-me, #work-me, #contact-me {
+    padding-bottom: 20px;
+}
+
+
+
+/* Section My Work */
+.first-challenge img {
+    height: auto;
+    max-width: 100%;
+    width: 500px;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+.second-challenge img {
+    height: auto;
+    max-width: 100%;
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+img:hover  {
+    opacity: 0.5;
+}
+figcaption {
+    font-size: 17px;
+    padding-top: 3px;
+    color: rgb(158, 204, 50)55, 255, 255);
+}
+figcaption:hover {
+  opacity: 0.5;
+} 
+a {
+    margin-right: 5px;
+} 
+
+
+
+/* Section Contact Me*/
+.github-link>a {
+    color: white;
+}
+
+
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+ /*Screen Adjust  */
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
-    main,
-    nav, 
+   main,
+    nav
     {
       flex-direction: column;
     }
 }
+
+
 
