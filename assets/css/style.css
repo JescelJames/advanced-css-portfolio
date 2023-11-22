@@ -77,9 +77,12 @@ footer {
 nav img {
     height: auto;
     max-width: 100%;
-    width: 200px;
+    width: 242px;
     margin-right: 20px;
     border-radius: 10px;
+}
+nav a {
+    color: white;
 }
 nav>img:hover {
     opacity: 1.0;
@@ -87,7 +90,9 @@ nav>img:hover {
 nav>div>a:hover {
     opacity: 0.5;
 }
-
+nav h1 {
+    font-size: 29px;
+}
 
 
 /* Grouped Section id */
@@ -96,6 +101,11 @@ nav>div>a:hover {
 }
 
 
+
+/* Main h1 */
+main h2 {
+    font-size: 23px;
+}
 
 /* Section My Work */
 .first-challenge img {
@@ -124,20 +134,18 @@ figcaption {
     color: white;
     margin-bottom: 10px;
 }
-
-.second-challenge figcaption {
-    color: blue;
-}
-
 .first-challenge figcaption:hover {
   opacity: 0.5;
 } 
+.second-challenge figcaption {
+    color: blue;
+}
 a {
     margin-right: 5px;
 } 
 a:link, a:visited {
     text-decoration: none;
-  }
+}
 
 
 
@@ -145,7 +153,9 @@ a:link, a:visited {
 .github-link>a {
     color: white;
 }
-
+.github-link>a:hover {
+    opacity: 0.5;
+}
 
 
 /* Smooth Scroll */
