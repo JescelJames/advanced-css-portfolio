@@ -3,7 +3,6 @@
     border: solid 1px red;
 }
 
-
 /* Image Reset */
 img {
     width: 100%;
@@ -12,8 +11,8 @@ img {
 
 a {
     margin-right: 5px;
+  
 } 
-
 
 
 /* Body */
@@ -42,6 +41,14 @@ nav img {
     border-radius: 10px;
 }
 
+nav>img:hover {
+    opacity: 1.0;
+}
+
+nav>div>a:hover {
+    opacity: 0.5;
+}
+
 /* Article  Images and Gifs*/
 article img {
     height: auto;
@@ -60,8 +67,9 @@ article img {
 }
 
 figcaption {
-    font-size:10%
+    font-size: 20px;
     padding-top: 3px;
+    color: rgb(204, 50, 50)55, 255, 255);
 }
 
 
@@ -72,8 +80,12 @@ figcaption {
 }
 
 
-img:hover {
+img:hover  {
     opacity: 0.5;
+}
+
+.github-link>a {
+    color: white;
 }
 
 
@@ -95,7 +107,6 @@ main {
     margin-right: 50px;
     height: 100%;
     padding: 2px;
-   
     margin-bottom: 20px;
     border-top: solid 1px red;
     border-radius: 0 20px 0 0;
