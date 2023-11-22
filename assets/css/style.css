@@ -100,7 +100,7 @@ main {
 
 
 /* Aside */
-.aside-1 {
+.aside-1, .aside-2, .aside-3 {
     display: flex;
     float: left;
     /* width: 23%;  */
@@ -113,7 +113,7 @@ main {
 }
 
 /* Section-1 */
-.section-1 {
+.section-1, .section-2, .section-3 {
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
