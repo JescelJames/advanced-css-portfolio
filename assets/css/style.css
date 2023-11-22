@@ -1,6 +1,6 @@
 /* For Testing Purposes*/
 * {
-    /* border: solid 1px red; */
+    border: solid 1px red;
 }
 
   
@@ -167,11 +167,15 @@ html {
 
  /*Screen Adjust  */
 @media screen and (max-width: 768px) {
-    /* Use flex-direction to stack the navbar, sidebar, and body */
-   main,
-    nav
+   body, nav, main
+    
     {
+      display: flex;
+      flex-wrap: wrap;
       flex-direction: column;
+      justify-content: center; 
+     
+      
     }
 }
 
