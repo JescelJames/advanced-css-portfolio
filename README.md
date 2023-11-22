@@ -39,8 +39,20 @@ N/A
 This is an online portfolio using Cascading Style Sheet to properly layout a page with links and images. 
 
 ## Credits
-This code is from EdX Boot Camps LLC. All Rights Reserved.
 
+My Instructors:
+Benjamin Wright.
+Max Ohsawa.
+
+GIFS:
+https://github.com/rudrabarad/Gifs
+https://giphy.com/stickers/transparent-ESVq9aLP2tUv3DxAwU
+
+Make image opacity:
+https://www.w3schools.com/css/css_image_transparency.asp#:~:text=Transparent%20Hover%20Effect&text=The%20CSS%20for%20this%20is,image%20will%20be%20transparent%20again.
+
+Make link not change color after being visited:
+ https://www.shecodes.io/athena/36390-how-to-make-a-link-not-change-color-after-being-visited-in-css#:~:text=The%20text%2Ddecoration%3A%20none%3B,property%20to%20remove%20the%20underline.
 
 ## Contact
 For any additional questions about this project, feel free to contact me at jesceljames@gmail.com
