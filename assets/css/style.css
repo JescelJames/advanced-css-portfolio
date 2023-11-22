@@ -1,6 +1,6 @@
 /* For testing*/
 * {
-    /* border: solid 1px red; */
+    border: solid 1px red;
 }
 
 
@@ -65,13 +65,15 @@ figcaption {
 }
 
 
-#about-me, #work-me {
+#about-me, #work-me, #contact-me {
+    /* display: flex; */
+    /* flex-direction: row; */
     padding-bottom: 20px;
 }
 
 
-figure:hover {
-    width: 600px;
+img:hover {
+    opacity: 0.5;
 }
 
 
@@ -89,7 +91,7 @@ main {
 .aside-1 {
     display: flex;
     float: left;
-    /* width: 23%; */
+    /* width: 23%;  */
     margin-right: 50px;
     height: 100%;
     padding: 2px;
@@ -102,7 +104,7 @@ main {
 /* Section-1 */
 .section-1 {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     padding-left: 10px;
     padding-bottom: 10px;
