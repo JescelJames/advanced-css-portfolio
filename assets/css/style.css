@@ -1,10 +1,8 @@
-/* My Reset */
+/* For testing*/
 * {
-    box-sizing: border-box;
-    /* border: solid 1px red !important; */
-    padding: 0;
-    margin: 0;
-  }
+    /* border: solid 1px red; */
+}
+
 
 /* Image Reset */
 img {
@@ -67,6 +65,10 @@ figcaption {
 }
 
 
+#about-me, #work-me {
+    padding-bottom: 20px;
+}
+
 
 figure:hover {
     width: 600px;
@@ -87,8 +89,8 @@ main {
 .aside-1 {
     display: flex;
     float: left;
-    width: 23%;
-    /* font-size: 21px; */
+    /* width: 23%; */
+    margin-right: 50px;
     height: 100%;
     padding: 2px;
    
