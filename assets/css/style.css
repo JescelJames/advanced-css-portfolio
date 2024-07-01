@@ -33,7 +33,7 @@ main {
 /* Aside */
 .aside-1, .aside-2, .aside-3 {
     display: flex;
-    float: left;
+    /* float: left; */
     width: 16%; 
     margin-right: 50px;
     height: 100%;
@@ -156,17 +156,25 @@ html {
     scroll-behavior: smooth;
 }
 
+.flex-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
  /*Screen Adjust  */
 @media screen and (max-width: 768px) {
-   body, nav, main
-    
-    {
+   
+    body, nav, main {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column; 
       justify-content: center; 
      
       
+    }
+
+    .flex-row {
+        flex-direction: column;
     }
 }
 
